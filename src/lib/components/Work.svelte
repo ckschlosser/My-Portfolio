@@ -8,18 +8,18 @@
 	<ul class="mt-10">
 		<li class="grid grid-cols-12 mb-24 gap-x-3">
 			<div class="col-start-7 col-span-6 row-span-full text-right z-30">
-				<p class="text-[#EB5E28] my-2">Spotlighted Project</p>
+				<p class="text-mainOrange my-2">Spotlighted Project</p>
 				<h3 class="mb-4 text-2xl font-bold text-[#CCC5B9]">
 					<a href="https://tubular-snickerdoodle-5dad9f.netlify.app/" target="_blank">ToDo List</a>
 				</h3>
-				<div class="p-6 bg-[#2c2928] rounded-md text-[#FFFCF2]">
+				<div class="p-6 bg-[#2c2928] rounded-md text-mainWhite">
 					<p>
 						ToDo list showcasing experience in a couple of my skills. The web application also uses
 						a login page with your personal task list. Database was created and managed on
-						<a class="text-[#EB5E28]" href="https://supabase.com/">Supabase</a>.
+						<a class="text-mainOrange" href="https://supabase.com/">Supabase</a>.
 					</p>
 				</div>
-				<ul class="flex justify-end gap-8 text-[#CCC5B9] mt-4">
+				<ul class="flex justify-end gap-8 text-cream mt-4">
 					<li>VS Code</li>
 					<li>Svelte</li>
 					<li>TyperScript</li>
@@ -28,7 +28,7 @@
 				<div class="flex justify-end mt-5">
 					<a href="https://github.com/ckschlosser/Task-List" target="_blank">
 						<svg
-							class="w-10 h-10 fill-white hover:fill-[#EB5E28]"
+							class="w-10 h-10 fill-white hover:fill-mainOrange"
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 496 512"
 							><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path
