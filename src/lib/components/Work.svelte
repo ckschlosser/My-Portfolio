@@ -9,7 +9,7 @@
 		<li class="grid grid-cols-12 mb-24 gap-x-3">
 			<div class="col-start-7 col-span-6 row-span-full text-right z-30">
 				<p class="text-mainOrange my-2">Spotlighted Project</p>
-				<h3 class="mb-4 text-2xl font-bold text-[#CCC5B9]">
+				<h3 class="mb-4 text-2xl font-bold text-cream">
 					<a href="https://tubular-snickerdoodle-5dad9f.netlify.app/" target="_blank">ToDo List</a>
 				</h3>
 				<div class="p-6 bg-[#2c2928] rounded-md text-mainWhite">
