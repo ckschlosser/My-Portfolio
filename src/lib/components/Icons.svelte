@@ -1,7 +1,9 @@
 <script>
+	export let iconW = '2xl:w-52 xl:w-40 lg:w-32 md:w-24';
+	export let iconH = '2xl:h-52 xl:h-40 lg:h-32 md:h-24';
 </script>
 
-<div class="w-40 h-40">
+<div class="{iconW} {iconH}">
 	<svg
 		class="object-contain"
 		xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +17,7 @@
 		/></svg
 	>
 </div>
-<div class="w-40 h-40">
+<div class="{iconW} {iconH}">
 	<svg class="object-contain" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124 141.53"
 		><path d="M10.383 126.892L0 0l124 .255-10.979 126.637-50.553 14.638z" fill="#1b73ba" /><path
 			d="M62.468 129.275V12.085l51.064.17-9.106 104.85z"
@@ -26,7 +28,7 @@
 		/></svg
 	>
 </div>
-<div class="w-40 h-40">
+<div class="{iconW} {iconH}">
 	<svg
 		class="object-contain"
 		xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +43,7 @@
 		></svg
 	>
 </div>
-<div class="w-40 h-40 flex justify-center">
+<div class="{iconW} {iconH} flex justify-center">
 	<svg
 		class="object-contain"
 		preserveAspectRatio="xMidYMid"
@@ -58,7 +60,7 @@
 		/></svg
 	>
 </div>
-<div class="w-40 h-40">
+<div class="{iconW} {iconH}">
 	<svg
 		class="object-contain"
 		viewBox="-23.04085003 -23.7 545.4320132 647"
@@ -72,7 +74,7 @@
 		/></svg
 	>
 </div>
-<div class="w-40 h-40">
+<div class="{iconW} {iconH}">
 	<svg class="object-contain" viewBox="175.7 78 490.6 436.9" xmlns="http://www.w3.org/2000/svg"
 		><g fill="#61dafb"
 			><path

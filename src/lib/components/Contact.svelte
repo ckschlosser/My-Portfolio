@@ -3,7 +3,7 @@
 	import Button from './Button.svelte';
 </script>
 
-<section class="py-24">
+<section class="min-h-fit">
 	<RomanTitle title="Contact Me" />
 	<div class="flex justify-center">
 		<div>

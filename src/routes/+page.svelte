@@ -27,13 +27,6 @@
 </main>
 <Footer />
 
-<!-- Colors for website
-FFFCF2
-CCC5B9
-555249
-252422
-EB5E28
--->
 <style>
 	:global(body) {
 		background-color: #252322;

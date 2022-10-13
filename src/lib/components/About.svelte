@@ -3,7 +3,7 @@
 	let title = '';
 </script>
 
-<section class="py-20">
+<section class="">
 	<RomanTitle title="About Me" />
 	<div class="grid grid-cols-2">
 		<div class="text-cream">

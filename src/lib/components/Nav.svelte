@@ -20,7 +20,7 @@
 	];
 </script>
 
-<header class="fixed top-0 py-6 px-12 w-screen backdrop-blur-sm z-50">
+<header class="fixed top-0 w-screen backdrop-blur-sm z-50 py-6 px-8">
 	<nav class="flex items-center justify-between">
 		<div>
 			<a href="/#home">
