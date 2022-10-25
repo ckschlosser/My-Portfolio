@@ -3,9 +3,17 @@
 
 <section class="flex flex-col">
 	<div><h1 class="text-mainOrange">Hi, my name is</h1></div>
-	<div><h2 class="text-cream text-6xl font-semibold mt-5">Clinton Schlosser.</h2></div>
 	<div>
-		<h3 class="text-lighterGray text-5xl font-semibold mt-4">I'm a Front End Web Developer.</h3>
+		<h2 class="text-cream font-semibold text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-2 md:mt-5">
+			Clinton Schlosser.
+		</h2>
+	</div>
+	<div>
+		<h3
+			class="text-lighterGray font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2 md:mt-4"
+		>
+			I'm a Front End Web Developer.
+		</h3>
 	</div>
 	<div>
 		<p class="max-w-xl text-cream mt-6">

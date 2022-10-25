@@ -9,14 +9,9 @@
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<!--At MD (768px):
-	Need to hide nav items and side bars
-	Collapse About me section into 1 col
--->
-
 <Nav />
 <FixedAsideText />
-<main class="container mx-auto px-36">
+<main class="container mx-auto md:px-36 px-10">
 	<Hero />
 	<ul class="list-roman">
 		<About />

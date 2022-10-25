@@ -4,9 +4,11 @@
 	let title = '';
 </script>
 
-<section class="">
+<section class="px-8">
 	<RomanTitle title="Skills" />
-	<div class="grid grid-cols-3 gap-16 gap-y-14 mt-12 px-8 justify-items-center items-center">
+	<div
+		class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 md:gap-y-14 mt-12 justify-items-center items-center"
+	>
 		<Icons />
 	</div>
 </section>

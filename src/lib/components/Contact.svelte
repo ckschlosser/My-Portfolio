@@ -7,7 +7,9 @@
 	<RomanTitle title="Contact Me" />
 	<div class="flex justify-center">
 		<div>
-			<h2 class="text-4xl font-bold text-lighterGray text-center mt-8">Let's Get In Touch</h2>
+			<h2 class="text-2xl sm:text-4xl font-bold text-lighterGray text-center mt-8">
+				Let's Get In Touch
+			</h2>
 			<p class="mt-8 text-center text-mainWhite max-w-lg">
 				I'm currently looking for any oppurtunities! I'm always available, whether you have some
 				questions or just want to connect. I will do my best to get back to you.
