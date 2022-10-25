@@ -3,9 +3,9 @@
 	let title = '';
 </script>
 
-<section class="">
+<section class="mt-12 px-8">
 	<RomanTitle title="My Work" />
-	<ul class="mt-10">
+	<ul class="hidden mt-10">
 		<li class="grid grid-cols-12 mb-24 gap-x-3">
 			<div class="col-start-7 col-span-6 row-span-full text-right z-10">
 				<p class="text-mainOrange my-2">Spotlighted Project</p>

@@ -1,6 +1,6 @@
 <script>
-	export let iconW = '2xl:w-52 xl:w-40 lg:w-32 md:w-24';
-	export let iconH = '2xl:h-52 xl:h-40 lg:h-32 md:h-24';
+	export let iconW = '2xl:w-52 xl:w-40 lg:w-32 w-24';
+	export let iconH = '2xl:h-52 xl:h-40 lg:h-32 h-24 ';
 </script>
 
 <div class="{iconW} {iconH}">
