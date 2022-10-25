@@ -25,7 +25,7 @@
 				my applications through it using Svelte.
 			</p>
 		</div>
-		<div class="place-self-center">
+		<div class="place-self-center mt-6">
 			<img class="w-auto h-auto rounded-full" src="/src/lib/images/selfie.jpg" alt="" />
 		</div>
 	</div>
