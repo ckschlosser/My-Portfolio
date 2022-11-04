@@ -18,9 +18,8 @@
 				<Button
 					name="Contact Here"
 					href="mailto:ckschlosser13@gmail.com"
-					border="-2"
-					paddingX="6"
-					paddingY="4"
+					paddingX="4"
+					paddingY="2"
 				/>
 			</div>
 		</div>
