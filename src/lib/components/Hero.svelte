@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="flex flex-col">
+<section class="flex flex-col" id="hero">
 	<div><h1 class="text-mainOrange">Hi, my name is</h1></div>
 	<div>
 		<h2 class="text-cream font-semibold text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-2 md:mt-5">

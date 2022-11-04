@@ -3,7 +3,7 @@
 	import Button from './Button.svelte';
 </script>
 
-<section class="min-h-fit">
+<section class="min-h-fit" id="contact">
 	<RomanTitle title="Contact Me" />
 	<div class="flex justify-center">
 		<div>
@@ -14,7 +14,7 @@
 				I'm currently looking for any oppurtunities! I'm always available, whether you have some
 				questions or just want to connect. I will do my best to get back to you.
 			</p>
-			<div class="flex justify-center mt-10">
+			<div class="flex justify-center my-10">
 				<Button
 					name="Contact Here"
 					href="mailto:ckschlosser13@gmail.com"
