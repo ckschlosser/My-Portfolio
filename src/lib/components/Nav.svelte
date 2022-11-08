@@ -41,7 +41,7 @@
 		<div>
 			<button on:click={toggleModal}>
 				<svg
-					class="fill-mainWhite w-8 h-8 sm:w-12 sm:h-12 md:hidden"
+					class="fill-mainWhite w-8 h-8 sm:w-12 sm:h-12 sm:hidden"
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 0 448 512"
 					><path
@@ -51,7 +51,7 @@
 			</button>
 		</div>
 
-		<div class="hidden md:flex text-md text-mainWhite items-center gap-x-10">
+		<div class="hidden sm:flex text-md text-mainWhite items-center gap-x-10">
 			<ul class="flex list-roman marker:text-mainOrange gap-x-12">
 				<div>
 					<li>

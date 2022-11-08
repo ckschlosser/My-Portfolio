@@ -34,7 +34,7 @@
 					/></svg
 				>
 			</a>
-			<a href="https://www.linkedin.com/in/clinton-schlosser-b429b211b/">
+			<a href="https://www.linkedin.com/in/clinton-schlosser-b429b211b/" target="_blank">
 				<svg
 					class="w-10 h-10 fill-mainWhite"
 					xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@
 					/></svg
 				>
 			</a>
-			<a href="mailto:ckschlosser13@gmail.com">
+			<a href="mailto:ckschlosser13@gmail.com" target="_blank">
 				<svg
 					class="w-10 h-10 fill-mainWhite"
 					xmlns="http://www.w3.org/2000/svg"
