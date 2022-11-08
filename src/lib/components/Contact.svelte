@@ -20,6 +20,7 @@
 					href="mailto:ckschlosser13@gmail.com"
 					paddingX="4"
 					paddingY="2"
+					border="border-2"
 				/>
 			</div>
 		</div>

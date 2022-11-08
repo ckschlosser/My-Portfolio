@@ -7,6 +7,6 @@
 </script>
 
 <a
-	class="text-mainOrange border{border} py-{paddingY} px-{paddingX} border-mainOrange rounded-md hover:bg-mainOrange/[.2]"
+	class="text-mainOrange {border} py-{paddingY} px-{paddingX} border-mainOrange rounded-md hover:bg-mainOrange/[.2]"
 	{href}>{name}</a
 >

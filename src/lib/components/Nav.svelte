@@ -40,26 +40,46 @@
 		</div>
 
 		<div class="hidden md:flex text-md text-mainWhite items-center gap-x-10">
-			<nav class="flex list-roman marker:text-mainOrange gap-x-12">
-				<a href="#about" on:click|preventDefault={scrollIntoView} class="p-2 hover:text-mainOrange"
-					>About</a
-				>
-				<a href="#skills" on:click|preventDefault={scrollIntoView} class="p-2 hover:text-mainOrange"
-					>Skills</a
-				>
-				<a
-					href="#projects"
-					on:click|preventDefault={scrollIntoView}
-					class="p-2 hover:text-mainOrange">Projects</a
-				>
-				<a
-					href="#contact"
-					on:click|preventDefault={scrollIntoView}
-					class="p-2 hover:text-mainOrange">Contact</a
-				>
-			</nav>
+			<ul class="flex list-roman marker:text-mainOrange gap-x-12">
+				<div>
+					<li>
+						<a
+							href="#about"
+							on:click|preventDefault={scrollIntoView}
+							class="p-2 hover:text-mainOrange">About</a
+						>
+					</li>
+				</div>
+				<div>
+					<li>
+						<a
+							href="#skills"
+							on:click|preventDefault={scrollIntoView}
+							class="p-2 hover:text-mainOrange">Skills</a
+						>
+					</li>
+				</div>
+				<div>
+					<li>
+						<a
+							href="#projects"
+							on:click|preventDefault={scrollIntoView}
+							class="p-2 hover:text-mainOrange">Projects</a
+						>
+					</li>
+				</div>
+				<div>
+					<li>
+						<a
+							href="#contact"
+							on:click|preventDefault={scrollIntoView}
+							class="p-2 hover:text-mainOrange">Contact</a
+						>
+					</li>
+				</div>
+			</ul>
 			<div class="flex items-center">
-				<Button name="Resume" href="/" paddingX="4" paddingY="2" />
+				<Button name="Resume" href="/" paddingX="4" paddingY="2" border="border" />
 			</div>
 		</div>
 	</nav>
