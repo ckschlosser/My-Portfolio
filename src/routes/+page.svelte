@@ -3,14 +3,19 @@
 	import FixedAsideText from '$lib/components/FixedAsideText.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Sections from '$lib/components/Sections.svelte';
+	import Modal from '$lib/components/Modal.svelte';
+	import { openModal } from '$lib/store';
 </script>
 
+{#if $openModal}
+	<Modal />
+{/if}
 <Nav />
 <FixedAsideText />
 <main class="container mx-auto md:px-36 px-10">
 	<Sections />
+	<Footer />
 </main>
-<Footer />
 
 <style>
 	:global(body) {
