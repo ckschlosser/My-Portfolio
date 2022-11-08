@@ -3,7 +3,7 @@
 	let title = '';
 </script>
 
-<section class="mt-12 px-8">
+<section class="mt-12 px-8" id="projects">
 	<RomanTitle title="My Work" />
 	<ul class="hidden mt-10">
 		<li class="grid grid-cols-12 mb-24 gap-x-3">

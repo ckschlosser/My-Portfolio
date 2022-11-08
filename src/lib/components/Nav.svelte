@@ -1,23 +1,13 @@
 <script>
 	import Button from './Button.svelte';
-	let navItems = [
-		{
-			name: 'About',
-			link: '/#about'
-		},
-		{
-			name: 'Skills',
-			link: '/#skills'
-		},
-		{
-			name: 'Projects',
-			link: '/#projects'
-		},
-		{
-			name: 'Contact',
-			link: '/#contact'
-		}
-	];
+	import NavModal from './Modal.svelte';
+	function scrollIntoView({ target }) {
+		const elemento = document.querySelector(target.getAttribute('href'));
+		if (!elemento) return;
+		elemento.scrollIntoView({
+			behavior: 'smooth'
+		});
+	}
 </script>
 
 <header
@@ -25,7 +15,7 @@
 >
 	<nav class="flex items-center justify-between">
 		<div>
-			<a href="/#home">
+			<a href="/">
 				<svg
 					class="w-8 h-8 sm:w-12 sm:h-12"
 					xmlns="http://www.w3.org/2000/svg"
@@ -39,26 +29,59 @@
 			</a>
 		</div>
 		<div>
-			<svg
-				class="fill-mainWhite w-8 h-8 sm:w-12 sm:h-12 md:hidden"
-				xmlns="http://www.w3.org/2000/svg"
-				viewBox="0 0 448 512"
-				><path
-					d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
-				/></svg
-			>
+			<a href="#/">
+				<svg
+					class="fill-mainWhite w-8 h-8 sm:w-12 sm:h-12 md:hidden"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 448 512"
+					><path
+						d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+					/></svg
+				>
+			</a>
 		</div>
 
 		<div class="hidden md:flex text-md text-mainWhite items-center gap-x-10">
 			<ul class="flex list-roman marker:text-mainOrange gap-x-12">
-				{#each navItems as item}
-					<a href={item.link} class="p-2 hover:text-mainOrange"
-						><li class="before:pr-2">{item.name}</li></a
-					>
-				{/each}
+				<div>
+					<li>
+						<a
+							href="#about"
+							on:click|preventDefault={scrollIntoView}
+							class="p-2 hover:text-mainOrange">About</a
+						>
+					</li>
+				</div>
+				<div>
+					<li>
+						<a
+							href="#skills"
+							on:click|preventDefault={scrollIntoView}
+							class="p-2 hover:text-mainOrange">Skills</a
+						>
+					</li>
+				</div>
+				<div>
+					<li>
+						<a
+							href="#projects"
+							on:click|preventDefault={scrollIntoView}
+							class="p-2 hover:text-mainOrange">Projects</a
+						>
+					</li>
+				</div>
+				<div>
+					<li>
+						<a
+							href="#contact"
+							on:click|preventDefault={scrollIntoView}
+							class="p-2 hover:text-mainOrange">Contact</a
+						>
+					</li>
+				</div>
 			</ul>
 			<div class="flex items-center">
-				<Button name="Resume" href="/" paddingX="4" paddingY="2" />
+				<Button name="Resume" href="/" paddingX="4" paddingY="2" border="border" />
 			</div>
 		</div>
 	</nav>
