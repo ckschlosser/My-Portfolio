@@ -1,21 +1,21 @@
 <script>
-	// import { createEventDispatcher } from 'svelte';
+	function scrollIntoView({ target }) {
+		const elemento = document.querySelector(target.getAttribute('href'));
+		if (!elemento) return;
+		elemento.scrollIntoView({
+			behavior: 'smooth'
+		});
+	}
 
-	// const dispatch = createEventDispatcher();
-	// let closeModel = () => {
-	// 	dispatch('cancel');
-	// };
 	export let borderB = 'border-b-2';
 	export let borderColor = 'border-mainOrange';
 	export let paddingY = 'py-5';
 	export let textColor = 'text-lighterGray';
 </script>
 
-<div class="bg-mainGray fixed top-0 left-0 w-full h-full z-30">
-	<div
-		class="fixed top-0 left-[10%] w-4/5 max-h-screen bg-cream rounded-sm z-50 shadow-md overflow-scroll"
-	>
-		<div class="flex justify-between items-center {borderB} {borderColor}">
+<div class="bg-mainGray mx-auto h-full z-30 flex justify-center">
+	<div class="max-h-screen bg-cream rounded-sm z-50 shadow-md overflow-scroll">
+		<div class="flex justify-between items-center gap-x-48 {borderB} {borderColor}">
 			<svg
 				class="w-8 h-8 m-2 sm:w-12 sm:h-12"
 				xmlns="http://www.w3.org/2000/svg"
