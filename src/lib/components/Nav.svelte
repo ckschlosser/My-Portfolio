@@ -1,6 +1,7 @@
 <script>
 	import Button from './Button.svelte';
 	import { openModal } from '$lib/store';
+	import resume from '$lib/images/ResumeWD.pdf';
 
 	function scrollIntoView({ target }) {
 		const elemento = document.querySelector(target.getAttribute('href'));
@@ -87,7 +88,14 @@
 				</div>
 			</ul>
 			<div class="flex items-center">
-				<Button name="Resume" href="/" paddingX="4" paddingY="2" border="border" />
+				<Button
+					name="Resume"
+					href={resume}
+					target="_blank"
+					paddingX="4"
+					paddingY="2"
+					border="border"
+				/>
 			</div>
 		</div>
 	</nav>
