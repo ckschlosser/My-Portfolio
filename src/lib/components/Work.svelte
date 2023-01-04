@@ -5,7 +5,7 @@
 	let projects = [
 		{
 			title: 'ToDo List',
-			src: '/static/ToDo-List.png',
+			src: '/ToDo-List.png',
 			href: 'https://tasklist-cs.netlify.app/',
 			gitHub: 'https://github.com/ckschlosser/Task-List',
 			tools: 'VS Code, Svelte, TypeScript, Tailwind CSS, SupaBase',
@@ -14,7 +14,7 @@
 		},
 		{
 			title: 'Discord Landing Page Clone',
-			src: '/static/DiscordClone.png',
+			src: '/DiscordClone.png',
 			href: 'https://github.com/ckschlosser/discord-clone-react',
 			gitHub: 'https://github.com/ckschlosser/discord-clone-react',
 			tools: 'VS Code, React, TypeScript, Tailwind CSS',
@@ -23,7 +23,7 @@
 		},
 		{
 			title: 'UpComing Project',
-			src: '/static/UpComing-Project.png',
+			src: '/UpComing-Project.png',
 			href: '#',
 			gitHub: '#',
 			tools: 'Coming Soon....',
