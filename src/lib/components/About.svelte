@@ -1,5 +1,6 @@
 <script>
 	import RomanTitle from './RomanTitle.svelte';
+	import selfie from '$lib/images/selfie.jpg';
 	let title = '';
 </script>
 
@@ -25,7 +26,7 @@
 			</p>
 		</div>
 		<div class="place-self-center mt-6">
-			<img class="w-auto h-auto rounded-full" src="/src/lib/images/selfie.jpg" alt="Selfie" />
+			<img class="w-auto h-auto rounded-full" src={selfie} alt="Selfie" />
 		</div>
 	</div>
 </section>
