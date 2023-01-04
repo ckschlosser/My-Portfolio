@@ -12,11 +12,7 @@
 
 	function toggleModal() {
 		openModal.update((n) => !n);
-		const navBar = document.querySelector('nav');
-		navBar?.classList.add('hidden');
-
-		const noScroll = document.querySelector('main');
-		noScroll?.classList.add('hidden');
+		openModal ? (document.body.style.overflow = 'hidden') : (document.body.style.overflow = 'auto');
 	}
 </script>
 
