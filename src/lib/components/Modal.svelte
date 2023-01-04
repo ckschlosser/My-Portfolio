@@ -17,15 +17,11 @@
 
 	function toggleModal() {
 		openModal.update((n) => !n);
-		const navBar = document.querySelector('nav');
-		navBar?.classList.remove('hidden');
-
-		const scroll = document.querySelector('main');
-		scroll?.classList.remove('hidden');
+		openModal ? (document.body.style.overflow = 'auto') : (document.body.style.overflow = 'hidden');
 	}
 </script>
 
-<div class="bg-mainGray mx-auto h-screen z-30 flex justify-center">
+<div class="bg-mainGray mx-auto h-screen z-50 flex justify-center fixed top-0 right-0">
 	<div class="max-h-screen bg-cream rounded-sm z-50 shadow-md">
 		<div class="flex justify-between items-center gap-x-48 {borderB} {borderColor}">
 			<svg
