@@ -15,7 +15,7 @@
 		{
 			title: 'Discord Landing Page Clone',
 			src: '/DiscordClone.png',
-			href: 'https://github.com/ckschlosser/discord-clone-react',
+			href: 'https://discord-clone-react-livid.vercel.app/',
 			gitHub: 'https://github.com/ckschlosser/discord-clone-react',
 			tools: 'VS Code, React, TypeScript, Tailwind CSS',
 			description:
