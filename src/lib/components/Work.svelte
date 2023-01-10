@@ -22,12 +22,13 @@
 				'A landing page clone of the Discord application. The application has a fully functional mobile navigation and other small elements that the original page has. Since Discord has its own private font, the page looks slighty different from the original.'
 		},
 		{
-			title: 'UpComing Project',
-			src: '/UpComing-Project.png',
-			href: '#',
-			gitHub: '#',
-			tools: 'Coming Soon....',
-			description: 'Currently working on a movie application using an API!'
+			title: 'Movie API',
+			src: '/Movie-API.png',
+			href: 'https://movie-api-gray.vercel.app/',
+			gitHub: 'https://github.com/ckschlosser/movie-api',
+			tools: 'VS Code, React, Tailwind CSS, Javascript',
+			description:
+				'Designed and built a movie application that uses an API. The nav bar and search bar are fully functional and will change the movie cards that pop up. This application shows off some API usage. Also showcases some animations using Tailwind CSS on the movie cards and mobile sidebar.'
 		}
 	];
 </script>
