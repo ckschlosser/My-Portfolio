@@ -12,11 +12,11 @@
 
 <ul class="mt-10">
 	{#each projects as { title, src, href, gitHub, tools, description }}
-		<li class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-10 gap-x-3 mb-16">
+		<li class="grid grid-cols-4 lg:grid-cols-8 xl:grid-cols-10 gap-x-3 mb-20">
 			<div
 				class="z-0 col-start-1 col-span-full lg:row-span-full lg:col-start-1 lg:col-span-6 xl:col-span-7 xl:col-start-1"
 			>
-				<a {href} target="_blank"><div><img class="rounded-lg " {src} alt={title} /></div></a>
+				<a {href} target="_blank"><div><img class="rounded-lg" {src} alt={title} /></div></a>
 			</div>
 			<div
 				class="text-center lg:text-right z-10 col-span-full lg:row-span-full lg:col-start-6 xl:col-start-7"
@@ -30,7 +30,7 @@
 						{description}
 					</p>
 				</div>
-				<ul class="flex justify-end gap-4 text-cream mt-4 lg:mt-32">
+				<ul class="flex justify-end gap-4 text-cream mt-4 lg:mt-12">
 					{tools}
 				</ul>
 				<div class="flex justify-end mt-5">
