@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import RomanTitle from './RomanTitle.svelte';
 	import Button from './Button.svelte';
 </script>

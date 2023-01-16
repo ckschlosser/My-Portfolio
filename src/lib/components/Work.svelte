@@ -1,6 +1,9 @@
 <script lang="ts">
 	import Projects from './Projects.svelte';
 	import RomanTitle from './RomanTitle.svelte';
+	import { fade } from 'svelte/transition';
+	import { inview } from 'svelte-inview';
+	let isInView: Boolean;
 	let title = '';
 	let projects = [
 		{
@@ -33,7 +36,18 @@
 	];
 </script>
 
-<section class="mt-12 sm:px-8" id="projects">
-	<RomanTitle title="My Work" />
-	<Projects {projects} />
+<section
+	class="mt-12 sm:px-8"
+	id="projects"
+	use:inview={{ unobserveOnEnter: true, rootMargin: '-35%' }}
+	on:change={({ detail }) => {
+		isInView = detail.inView;
+	}}
+>
+	{#if isInView}
+		<div in:fade>
+			<RomanTitle title="My Work" />
+			<Projects {projects} />
+		</div>
+	{/if}
 </section>
