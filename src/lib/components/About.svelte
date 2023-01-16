@@ -8,7 +8,7 @@
 </script>
 
 <section
-	class="mb-20"
+	class="mb-20 lg:min-h-fit"
 	id="about"
 	use:inview={{ unobserveOnEnter: true, rootMargin: '-35%' }}
 	on:change={({ detail }) => {
