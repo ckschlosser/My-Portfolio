@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"svelte-inview": "^3.0.2",
 		"svelte-scrollto": "^0.2.0"
 	}
 }
