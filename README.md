@@ -1,38 +1,41 @@
-# create-svelte
+# Personal Portfolio for Front End Web Development with SvelteKit/Tailwind CSS
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## A fully functional Personal Portfolio showcasing experience in design, responsiveness, and other projects!
 
-## Creating a project
+This project is a personal portfolio to showcase my front end skills. The portfolio was started with SvelteKit npm create. This project shows how to do the following:
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Create a fully functional and responsive Svelte portfolio
+- Use of scrollIntoView animation
+- Use of Fade in animation
+- How to build a simple portfolio design
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Skills used in project
 
-# create a new project in my-app
-npm create svelte@latest my-app
+- HTML5
+- Tailwind CSS
+- SvelteKit
+- TypeScript
+
+## Some of the code I am proud of
+
+This code shows how to create a fade in animation when you get to -35% of the sections margin!
+
+```SvelteKit
+<section
+	class="mt-12 sm:px-8"
+	id="projects"
+	use:inview={{ unobserveOnEnter: true, rootMargin: '-35%' }}
+	on:change={({ detail }) => {
+		isInView = detail.inView;
+	}}
+>
+	{#if isInView}
+		<div in:fade>
+			<RomanTitle title="My Work" />
+			<Projects {projects} />
+		</div>
+	{/if}
+</section>
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+# Vists the [My Portfolio](https://clinton-schlosser.netlify.app/)
