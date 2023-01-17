@@ -25,7 +25,7 @@
 				<h3 class="mb-4 font-bold text-cream lg:text-lg xl:text-xl">
 					<a {href} target="_blank">{title}</a>
 				</h3>
-				<div class="bg-[#2c2928] rounded-md text-mainWhite text-sm xl:text-lg">
+				<div class="bg-[#2c2928] pr-4 py-2 pl-1 rounded-md text-cream text-sm xl:text-lg">
 					<p>
 						{description}
 					</p>

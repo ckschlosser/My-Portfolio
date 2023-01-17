@@ -8,7 +8,7 @@
 	let projects = [
 		{
 			title: 'ToDo List',
-			src: '/ToDo-List.png',
+			src: '/ToDo.png',
 			href: 'https://tasklist-cs.netlify.app/',
 			gitHub: 'https://github.com/ckschlosser/Task-List',
 			tools: 'VS Code, Svelte, TypeScript, Tailwind CSS, SupaBase',
@@ -26,7 +26,7 @@
 		},
 		{
 			title: 'Movie API',
-			src: '/Movie-API.png',
+			src: '/MovieAPI.png',
 			href: 'https://movie-api-gray.vercel.app/',
 			gitHub: 'https://github.com/ckschlosser/movie-api',
 			tools: 'VS Code, React, Tailwind CSS, Javascript',
