@@ -1,5 +1,6 @@
 <script>
 	import { openModal } from '$lib/store';
+	import resume from '$lib/images/FrontEndWebDeveloper.pdf';
 
 	export let borderB = 'border-b-2';
 	export let borderColor = 'border-mainOrange';
@@ -58,7 +59,7 @@
 			<a href="#contact" on:click={scrollIntoView}
 				><li class="{borderB} {borderColor} {paddingY} {textColor}">Contact</li></a
 			>
-			<a href="/"><li class="{borderB} {borderColor} {paddingY} {textColor}">Resume</li></a>
+			<a href={resume}><li class="{borderB} {borderColor} {paddingY} {textColor}">Resume</li></a>
 		</ul>
 	</div>
 </div>
