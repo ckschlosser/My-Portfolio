@@ -5,10 +5,11 @@
 	export let paddingY = '';
 	export let paddingX = '';
 	export let target = '';
+	export let color = '';
 </script>
 
 <a
-	class="text-mainOrange {border} py-{paddingY} px-{paddingX} border-mainOrange rounded-md hover:bg-mainOrange/[.2]"
+	class="{color} {border} {paddingY} {paddingX} border-mainOrange rounded-md hover:bg-mainOrange/[.2]"
 	{href}
 	{target}>{name}</a
 >

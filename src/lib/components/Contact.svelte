@@ -18,9 +18,10 @@
 				<Button
 					name="Contact Here"
 					href="mailto:ckschlosser13@gmail.com"
-					paddingX="4"
-					paddingY="2"
+					paddingX="px-4"
+					paddingY="py-2"
 					border="border-2"
+					color="text-mainOrange"
 				/>
 			</div>
 		</div>
