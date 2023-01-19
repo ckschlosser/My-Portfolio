@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Projects from './Projects.svelte';
 	import RomanTitle from './RomanTitle.svelte';
+	import Button from './Button.svelte';
 	import { fade } from 'svelte/transition';
 	import { inview } from 'svelte-inview';
 	let isInView: Boolean;
@@ -48,6 +49,17 @@
 		<div in:fade>
 			<RomanTitle title="My Work" />
 			<Projects {projects} />
+			<!-- This button will open to a new page with additional projects once there are more than 3 on portfolio site
+				 <div class="flex justify-center">
+				<Button
+					name="Show more projects"
+					href="/#"
+					border="border-2"
+					paddingX="px-6"
+					paddingY="py-3"
+					color="text-cream"
+				/>
+			</div> -->
 		</div>
 	{/if}
 </section>

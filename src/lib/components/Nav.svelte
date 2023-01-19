@@ -92,9 +92,10 @@
 					name="Resume"
 					href={resume}
 					target="_blank"
-					paddingX="4"
-					paddingY="2"
+					paddingX="px-4"
+					paddingY="py-2"
 					border="border"
+					color="text-mainOrange"
 				/>
 			</div>
 		</div>
