@@ -1,6 +1,6 @@
 <script>
 	import { openModal } from '$lib/store';
-	import resume from '$lib/images/DeveloperResume.pdf';
+	import resume from '$lib/images/FrontEndDevResume.pdf';
 
 	export let borderB = 'border-b-2';
 	export let borderColor = 'border-mainOrange';
