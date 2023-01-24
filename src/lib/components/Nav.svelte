@@ -1,7 +1,7 @@
 <script>
 	import Button from './Button.svelte';
 	import { openModal } from '$lib/store';
-	import resume from '$lib/images/FrontEndWebDeveloper.pdf';
+	import resume from '$lib/images/DeveloperResume.pdf';
 
 	function scrollIntoView({ target }) {
 		const elemento = document.querySelector(target.getAttribute('href'));
